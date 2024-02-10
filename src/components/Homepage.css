@@ -1,0 +1,24 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #F4FAFF;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-family: 'Koulen', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.navbar-logo {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px;
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+   }
