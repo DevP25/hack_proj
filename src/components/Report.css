@@ -1,0 +1,44 @@
+.report-header h2 {
+    text-align: center;
+    font-size: 40px;
+   font-family: 'Times New Roman', Times, serif;
+  }
+  .report-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .report-form label {
+    margin-bottom: 10px;
+  }
+  .report-form button {
+    background-color: red; 
+    color: #fff; 
+    padding: 10px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; 
+  }
+  
+  .report-form button:hover {
+    background-color: rgb(155, 20, 20); 
+  }  
+
+  .superhero-container {
+    position: relative;
+    overflow: hidden;
+    height: 100px; 
+  }
+  
+  .superhero {
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    animation: flyIn 2s linear infinite; 
+  }
+  
+  @keyframes flyIn {
+    to {
+      left: 100%;
+    }
+  }
